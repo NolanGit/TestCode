@@ -2,5 +2,5 @@
 import sys
 gpus = sys.argv[1]
 print('start')
-print(gpus)
+print(len(gpus))
 print('end')
