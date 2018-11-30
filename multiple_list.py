@@ -1,0 +1,11 @@
+a=[['1','2'],'3',['4','5'],'a']
+print(len(a))
+print("="*10)
+print(len(a[0]))
+print("="*10)
+print(type(a[0])==list)
+print(type(a[1]))
+print(type(a[1])==str)
+print(type(a[2]))
+print(a[0][1])
+print(int('a'))
