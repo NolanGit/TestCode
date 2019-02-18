@@ -1,10 +1,10 @@
 import queue
+print('start')
+
+
 
 
 q = queue.Queue()
-# q.put(None)
-result = list()
-if q.get() == None:
-    print('none')
-result.append(q.get())
-print('1')
+q.put({'a':'b'})
+aa=q.get()
+print(aa)
